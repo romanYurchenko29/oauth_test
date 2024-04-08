@@ -1,0 +1,24 @@
+name: oauth_test
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  auth0: ^2.2.1
+  dio: ^5.4.2+1
+  flutter:
+    sdk: flutter
+  oauth_webauth: ^5.0.0+1
+  uni_links: ^0.5.1
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
